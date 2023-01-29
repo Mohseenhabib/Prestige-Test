@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include prestige_app *.css
+recursive-include prestige_app *.csv
+recursive-include prestige_app *.html
+recursive-include prestige_app *.ico
+recursive-include prestige_app *.js
+recursive-include prestige_app *.json
+recursive-include prestige_app *.md
+recursive-include prestige_app *.png
+recursive-include prestige_app *.py
+recursive-include prestige_app *.svg
+recursive-include prestige_app *.txt
+recursive-exclude prestige_app *.pyc
